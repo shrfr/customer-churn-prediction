@@ -24,7 +24,7 @@ The goal of this project is to **predict which customers are likely to churn** a
 - ✅ Customers on **month-to-month contracts** were found to churn at 3x the rate of those on annual contracts — a direct actionable insight for the sales team
 - ✅ Demonstrated that **high monthly charges + no online security + fiber optic internet** is the highest-risk customer profile
 
-> **Resume Bullet:** *"Built a customer churn prediction model on 7,000+ Telco records, identifying key churn drivers (monthly charges, contract type) and flagging high-risk customers — enabling targeted retention and a potential 5% churn reduction."*
+
 
 ---
 
@@ -119,6 +119,30 @@ Free trials of tech support and online security for the first 6 months would inc
 
 ---
 
+## 🚀 Model Deployment
+
+The trained model is deployed as a REST API using Flask.
+
+**Endpoint:** `POST /predict`
+
+**Input (JSON):**
+{
+  "tenure": 12,
+  "MonthlyCharges": 65.5,
+  "Contract": "Month-to-month",
+  ...
+}
+
+**Output (JSON):**
+{
+  "churn_prediction": 1,
+  "churn_probability": 0.82
+}
+
+Run locally:
+pip install flask
+python app.py
+
 ## 🛠️ Tech Stack
 
 | Tool | Purpose |
@@ -128,6 +152,7 @@ Free trials of tech support and online security for the first 6 months would inc
 | Matplotlib | Visualisation |
 | Scikit-Learn | Model building & evaluation |
 | Jupyter Notebook | Development environment |
+| Flask | Model deployment as REST API |
 
 ---
 
@@ -157,6 +182,6 @@ jupyter notebook churn_analysis.ipynb
 
 ## 👤 Author
 
-**Your Name**
+Shreya Bhattacharjee
 B.Tech — KIIT University
-[LinkedIn](https://linkedin.com/in/your-profile) • [GitHub](https://github.com/your-username)
+[LinkedIn](https://linkedin.com/in/shreya-bhattacharjee) • [GitHub](https://github.com/your-shrfr)
