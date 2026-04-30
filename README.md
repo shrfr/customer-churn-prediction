@@ -184,4 +184,4 @@ jupyter notebook churn_analysis.ipynb
 
 Shreya Bhattacharjee
 B.Tech — KIIT University
-[LinkedIn](https://linkedin.com/in/shreya-bhattacharjee) • [GitHub](https://github.com/your-shrfr)
+[LinkedIn](https://linkedin.com/in/shreya-bhattacharjee-b648a9228) • [GitHub](https://github.com/your-shrfr)
