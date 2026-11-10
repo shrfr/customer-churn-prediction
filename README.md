@@ -201,11 +201,7 @@ uvicorn app.main:app --reload
 # Open http://127.0.0.1:8000/docs
 ```
 
-**With Docker:**
-```bash
-docker build -t churn-api .
-docker run -p 8000:8000 churn-api
-```
+
 
 To explore the analysis, open the notebooks in the `notebooks/` folder with Jupyter.
 
