@@ -4,7 +4,6 @@
 ![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat&logo=python)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.9-orange?style=flat&logo=scikit-learn)
 ![FastAPI](https://img.shields.io/badge/FastAPI-REST%20API-009688?style=flat&logo=fastapi)
-![Docker](https://img.shields.io/badge/Docker-Dockerfile%20included-2496ED?style=flat&logo=docker)
 ![Domain](https://img.shields.io/badge/Domain-Telecom%20%7C%20Consulting-blueviolet?style=flat)
 
 ---
@@ -45,8 +44,6 @@ customer-churn-prediction/
 │   └── first_telc.csv          # Sample raw customer records
 ├── scripts/
 │   └── train.py                # Training script
-├── Dockerfile
-├── .dockerignore
 ├── requirements.txt
 └── README.md
 ```
@@ -180,7 +177,6 @@ Risk levels: `low` (< 0.3), `medium` (0.3–0.6), `high` (≥ 0.6). These cut-of
 | Scikit-Learn | Pipeline, encoding, Random Forest |
 | imbalanced-learn | SMOTEENN resampling |
 | FastAPI & Uvicorn | REST API |
-| Docker | Containerisation (Dockerfile included) |
 | Jupyter Notebook | Analysis and experimentation |
 
 ---
